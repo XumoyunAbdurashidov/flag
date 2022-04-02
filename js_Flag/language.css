@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.flag-uzb {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./flag/uzbekistan-flag.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto 100%;
+}
+
+.flag-eng {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./flag/amerika.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto 100%;
+}
+
+.flag-rus {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./flag/russia-flag.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto 100%;
+}
+
+.box {
+    width: 700px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: rgba(3, 163, 3, 0.336);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.411) inset;
+}
+
+.lenguage-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.322)inset;
+    border-radius: 25px;
+    background-color: rgb(202, 202, 255);
+}
+
+.btn {
+    display: inline-block;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 50px;
+    cursor: pointer;
+    color: rgb(0, 89, 225);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.btn:active {
+    transform: scale(1);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+
+.language-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.text-eng {
+    display: none;
+}
+
+.text-uzb {
+    display: block;
+}
+
+.text-rus {
+    display: none;
+}
+
+p::selection {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.container {
+    height: 200px;
+    width: 1000px;
+    padding: 10px;
+    background-color: rgb(0, 89, 255);
+    position: absolute;
+    box-shadow: 0 0 5px black;
+    border-radius: 25px;
+}
+
+.box__languages {
+    height: 50px;
+    justify-content: space-around;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(0, 89, 225)inset;
+    border-radius: 50px;
+}
+
+.btn {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 50px;
+    cursor: pointer;
+    color: rgb(0, 89, 225);
+}
+
+.paragraph__one {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 140px;
+    text-align: center;
+    transition: .5s ease;
+}
+
+.paragraph__two {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 140px;
+    text-align: center;
+    transition: .5s ease;
+} 
+
+.paragraph__three {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 140px;
+    text-align: center;
+    transition: .5s ease;
+}
+
+.paragraph__two {
+    display: none;
+}
+.paragraph__three {
+    display: none;
+}
+
+.paragraph__one::selection {
+    color: black;
+}
+.paragraph__two::selection {
+    color: black;
+}
+.paragraph__three::selection {
+    color: black;
+} */
